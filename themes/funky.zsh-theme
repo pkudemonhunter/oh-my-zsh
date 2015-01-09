@@ -24,3 +24,4 @@ setopt prompt_subst
 PROMPT='╭─${host}-${path_p}─${vcs_info_msg_0_}─${hist_no}-${ret_status}
 ╰─${blue_op}${smiley}${blue_cp} ${ret_status2} '
 local cur_cmd="${blue_op}%_${blue_cp}"
+PROMPT2="${cur_cmd}> "
